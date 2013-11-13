@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="stylesheets/theme.css" type="text/css" media="screen" />
+    <script src="js/jquery.js"></script>
+    <script src="js/hierarchy_view.js"></script>
+    <script src="js/application.js"></script>
+    <style>
+    .hierarchy_view li ul {
+      display: none;
+    }
+
+    </style>
+  </head>
+
+  <body class="theme">
+    <ul class="hierarchy_view">
+      <li>
+        <a class="hierarchy_view_title">
+          <span>Alimentos em Geral</span>
+        </a>
+        <ul>
+          <li>
+            <a class="hierarchy_view_title" data-element-id="4">
+              <span>Açúcar</span>
+            </a>
+            <ul>
+              <li>
+                <a class="hierarchy_view_title" data-element-id="5">
+                  <span>Açúcar</span>
+                </a>
+              </li>
+              <li>
+                <a class="hierarchy_view_title" data-element-id="6">
+                  <span>Açúcar Mascavo</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="hierarchy_view_title" data-element-id="7">
+              <span>Alpiste</span>
+            </a>
+          </li>
+          <li>
+            <a class="hierarchy_view_title" data-element-id="8">
+              <span>Arroz</span>
+            </a>
+          </li>
+          <li>
+            <a class="hierarchy_view_title" data-element-id="9">
+              <span>Cogumelo</span>
+            </a>
+          </li>
+          <li>
+            <a class="hierarchy_view_title" data-element-id="10">
+              <span>Feijão</span>
+            </a>
+          </li>
+          <li>
+            <a class="hierarchy_view_title" data-element-id="11">
+              <span>Frutas</span>
+            </a>
+          </li>
+          <li>
+            <a class="hierarchy_view_title" data-element-id="12">
+              <span>Frutos do Mar</span>
+            </a>
+            <ul>
+              <li>
+                <a class="hierarchy_view_title" data-element-id="13">
+                  <span>Camarão</span>
+                </a>
+              </li>
+              <li>
+                <a class="hierarchy_view_title" data-element-id="14">
+                  <span>Caranguejo</span>
+                </a>
+              </li>
+              <li>
+                <a class="hierarchy_view_title" data-element-id="15">
+                  <span>Lagosta</span>
+                </a>
+              </li>
+              <li>
+                <a class="hierarchy_view_title" data-element-id="16">
+                  <span>Outros</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="hierarchy_view_title" data-element-id="17">
+              <span>Gergelim</span>
+            </a>
+          </li>
+          <li>
+            <a class="hierarchy_view_title" data-element-id="18">
+              <span>Linhaça</span>
+            </a>
+          </li>
+          <li>
+            <a class="hierarchy_view_title" data-element-id="19">
+              <span>Mandioca</span>
+            </a>
+            <ul>
+              <li>
+                <a class="hierarchy_view_title" data-element-id="20">
+                  <span>Farinha de Mandioca</span>
+                </a>
+              </li>
+              <li>
+                <a class="hierarchy_view_title" data-element-id="21">
+                  <span>Mandioca Brava</span>
+                </a>
+              </li>
+              <li>
+                <a class="hierarchy_view_title" data-element-id="22">
+                  <span>Mandioca Mansa</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="hierarchy_view_title" data-element-id="23">
+              <span>Milho</span>
+            </a>
+            <ul>
+              <li>
+                <a class="hierarchy_view_title" data-element-id="24">
+                  <span>Creme de Milho</span>
+                </a>
+              </li>
+              <li>
+                <a class="hierarchy_view_title" data-element-id="25">
+                  <span>Milho de Pipoca</span>
+                </a>
+              </li>
+              <li>
+                <a class="hierarchy_view_title" data-element-id="26">
+                  <span>Outros</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="hierarchy_view_title" data-element-id="27">
+              <span>Óleos</span>
+            </a>
+            <ul>
+              <li>
+                <a class="hierarchy_view_title" data-element-id="28">
+                  <span>Óleo de Algodão</span>
+                </a>
+              </li>
+              <li>
+                <a class="hierarchy_view_title" data-element-id="29">
+                  <span>Óleo de Girassol</span>
+                </a>
+              </li>
+              <li>
+                <a class="hierarchy_view_title" data-element-id="30">
+                  <span>Óleo de Linhaça</span>
+                </a>
+              </li>
+              <li>
+                <a class="hierarchy_view_title" data-element-id="31">
+                  <span>Óleo de Mamona</span>
+                </a>
+              </li>
+              <li>
+                <a class="hierarchy_view_title" data-element-id="32">
+                  <span>Óleo de Neem (Nim)</span>
+                </a>
+              </li>
+              <li>
+                <a class="hierarchy_view_title" data-element-id="33">
+                  <span>Óleo de Palma</span>
+                </a>
+              </li>
+              <li>
+                <a class="hierarchy_view_title" data-element-id="34">
+                  <span>Óleo de Soja</span>
+                </a>
+              </li>
+              <li>
+                <a class="hierarchy_view_title" data-element-id="35">
+                  <span>Outros Oleos</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="hierarchy_view_title" data-element-id="36">
+              <span>Outros</span>
+            </a>
+          </li>
+          <li>
+            <a class="hierarchy_view_title" data-element-id="37">
+              <span>Palmitos</span>
+            </a>
+          </li>
+          <li>
+            <a class="hierarchy_view_title" data-element-id="38">
+              <span>Temperos e Especiarias</span>
+            </a>
+          </li>
+          <li>
+            <a class="hierarchy_view_title" data-element-id="39">
+              <span>Trigo</span>
+            </a>
+            <ul>
+              <li>
+                <a class="hierarchy_view_title" data-element-id="40">
+                  <span>Farinha de Trigo Comum</span>
+                </a>
+              </li>
+              <li>
+                <a class="hierarchy_view_title" data-element-id="41">
+                  <span>Farinha de Trigo Especial</span>
+                </a>
+              </li>
+              <li>
+                <a class="hierarchy_view_title" data-element-id="42">
+                  <span>Farinha de Trigo Intermediária</span>
+                </a>
+              </li>
+              <li>
+                <a class="hierarchy_view_title" data-element-id="43">
+                  <span>Outros</span>
+                </a>
+              </li>
+              <li>
+                <a class="hierarchy_view_title" data-element-id="44">
+                  <span>Trigo em Grão</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>

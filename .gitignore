@@ -1,0 +1,16 @@
+CoffeePy
+coffee_watch.py
+application/config/config.php
+application/config/database.php
+application/language/*.php
+
+.sass-cache/*
+img/uploads/*
+img/icons/activity/
+*~
+.DS_Store
+.todo
+.htaccess
+m/
+*.sublime*
+Thumbs.db
